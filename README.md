@@ -1,7 +1,7 @@
 # iplist
 A dead simple bash script to list your current and previous external/local ip addresses.
 
-Designed for Mac, but should work on any UNIX-like system that can run bash. Simply change the first line to the location of your bash shell.
+-Built for macOS, but should eventually run on any UNIX-like system that can run bash. Simply change the first line to the location of your bash shell.
 
 Changelog:
 
@@ -17,15 +17,18 @@ How To Use:
 
 Known Bugs:
 
-- None!
+- Not currently working on BSD / Untested on other Unix-like OS(s)
 
 *If you find a bug, please email me alexnoyle@icloud.com, or open an issue on the repo. Suggestions are also appreciated.*
 
 TODO:
 
 - Revise installation instructions in README.md (this)
+
 - Revise "clean" and "uninstall" script, and add them into iplist.sh as a parameter
+
 - Automate installation/removal as a bash alias
+
 - Add more features: hostname etc. Make these optional displays.
 
 Screenshots:
