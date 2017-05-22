@@ -23,10 +23,17 @@ cat ~/.internaladdr
 echo
 
 echo "Previous External IP: "
-cat ~/.previousexternaladdr
-echo
+a=`cat ~/.previousexternaladdr`
+echo $a
 
-echo
+    echo "No Previous External IP Recorded" > ~/.linefix
+    b=`cat ~/.linefix`
+
+    if [ "$a" != "$b" ]; then
+        echo
+    else
+        echo
+    fi
 
 echo "Previous Local IP: "
 cat ~/.previousinternaladdr
@@ -34,3 +41,4 @@ echo
 
 mv ~/.externaladdr ~/.previousexternaladdr
 mv ~/.internaladdr ~/.previousinternaladdr
+rm -rf ~/.linefix
