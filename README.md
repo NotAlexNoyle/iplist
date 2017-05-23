@@ -18,6 +18,7 @@ How To Use:
 Known Bugs:
 
 - Not currently working on BSD / Untested on other Unix-like OS(s)
+- Not currently working with non-en0 network interfaces. Quick fix but not full solution is to change en0 in iplist.sh to en(foo)
 
 *If you find a bug, please email me alexnoyle@icloud.com, or open an issue on the repo. Suggestions are also appreciated.*
 
