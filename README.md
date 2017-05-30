@@ -5,14 +5,18 @@ A dead simple bash script to list your current and previous external/local ip ad
 
 Changelog:
 
+- Version 1.2 - Added and expanded documentation from Lifeline-Text-Program
 - Version 1.1 - Fix formatting issues / add uninstall script
 - Version 1.0 - Initial Release
 
 How To Use:
 
 1.) Make the file executable (cd to it, then do 'chmod +x iplist & chmod +x clean)
+
 2.) Add both clean and iplist to your bash alias file (~/.bash_profile on the Mac)
+
 3.) Restart your shell and type whatever you set as the alias! (ip and ipclean in my case)
+
 4.) Profit. You now have a super clean list of your IPs.
 
 Known Bugs:
