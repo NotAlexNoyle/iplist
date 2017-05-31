@@ -5,6 +5,7 @@ A dead simple bash script to list your current and previous external/local ip ad
 
 Changelog:
 
+- Version 1.3 - Fix typo in linefix code (eliminates cat error)
 - Version 1.2 - Added and expanded documentation from Lifeline-Text-Program
 - Version 1.1 - Fix formatting issues / add uninstall script
 - Version 1.0 - Initial Release
