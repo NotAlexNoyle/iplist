@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/local/bin/bash
 
 if [ -f ~/.previousexternaladdr ]; then
     rm -rf ~/.previousexternaladdr
