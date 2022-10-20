@@ -1,4 +1,4 @@
-#!/usr/local/bin/bash
+#!/usr/bin/env bash
 # iplist version 1.4 by NotAlexNoyle
 
 # If file is not found, record that previous ips do not exist, and create the files

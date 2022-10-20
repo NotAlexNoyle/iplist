@@ -5,6 +5,7 @@ Built for bash and FreeBSD. Should work on other UNIX-like systems too.
 
 Changelog:
 
+- Version 1.5 - Add universal bash path finder
 - Version 1.4 - Simplify code. Switch primary target from macOS to FreeBSD
 - Version 1.3 - Fix typo in linefix code (eliminates cat error)
 - Version 1.2 - Added and expanded documentation from Lifeline-Text-Program
